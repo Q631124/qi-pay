@@ -1,0 +1,120 @@
+@charset "UTF-8";
+body {
+    background: #f4f7f9;
+    font: 100%/1.5 "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑,
+    STHeiti, MingLiu, Arial, Helvetica, 宋体, sans-serif
+}
+
+body .container {
+    min-width: 980px;
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+body .container .clear {
+    clear: both
+}
+
+body .container .title {
+    color: #575e65;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body .container .fruit {
+    background: #fff;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.container .banana-box {
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+.container .banana-box .banana {
+    border: 1px solid #fff;
+    cursor: pointer
+}
+
+.container .banana.checked {
+    border: 1px solid;
+    border-radius: 3px
+}
+
+.container .course2-box {
+    width: 600px;
+    margin: auto
+}
+
+body .container .fruit .banana .pic {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px
+}
+
+body .container .fruit .banana .detail {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    padding-left: 50px
+}
+
+body .container .fruit .banana .detail .name {
+    height: 30px
+}
+
+body .container .fruit .banana .detail .price {
+    height: 30px;
+}
+
+body .container .model {
+    background: #fff;
+    margin-top: 30px
+}
+
+body .container .model .sum-price {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    color: #575e65
+}
+
+body .container .model .sum-price .price {
+    color: #009aff;
+    font-size: 26px
+}
+
+body .container .model a.buy {
+    float: right;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 15px 18px 15px;
+    line-height: 1.33;
+    background-color: #009aff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align:center;
+    width:70px;
+}
+
+body .container .model a.buy:hover {
+    background-color: #40b3ff
+}
+
+body .foot {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #848585;
+    height:50px;
+    line-height:50px;
+}
