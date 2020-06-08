@@ -1,4 +1,5 @@
 # qi-pay
+````
 微信、支付宝支付
 生成二维码和支付宝所需要的的jar包在WEB-INF/lib文件夹下。
 所需的User表结构：
@@ -12,3 +13,4 @@ CREATE TABLE `t_user` (
   `createdDate` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+````
